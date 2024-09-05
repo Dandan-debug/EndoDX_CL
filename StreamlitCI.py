@@ -6,7 +6,7 @@ import shap
 import matplotlib.pyplot as plt
 
 # 加载模型
-model_path = 'Streamlit应用程序/XGBoostCI.pkl'
+model_path = 'XGBoostCI.pkl'
 model = joblib.load(model_path)
 
 # 定义特征名称
